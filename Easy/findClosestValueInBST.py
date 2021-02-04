@@ -23,6 +23,7 @@ Space: If we solve this recursively, it will be the same as the time complexity,
 IIteratively solving this would reduce the space complexity 0(1) because we wont be storeing much.
 We will need ot write a helper method to keep track of the closests value so far. 
 """
+
 ## --- recursive approach ----
 ## Average: O(log(n)) time | O(log(n)) space
 ## Worst: O(n) time | O(n) space
