@@ -1,5 +1,7 @@
 # Algorithms
 
 Notes:
-
-Depth First search is a must know for any interview
+Must know for any interview
+Easy:
+- Depth First search is a 
+- Fibonacci 
