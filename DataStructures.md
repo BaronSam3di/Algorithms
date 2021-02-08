@@ -31,3 +31,19 @@ A string is a an array of integers mapped to a character encoding standard such 
 
 - **general** (recursive) case --the case for which the solution is expressed in terms of a smaller version of itself. In other words, here, the problem space is made smaller and smaller. (the smaller problem space is sent to the calling function)
 - **base case** --the case for which the solution can be stated nonrecursively. Here, a solid solution is found. 
+
+# Big O Notation
+This is the notation used to describe the `time` complexity and `space` complexity of algorithms; always in the **worst case scenario**.
+
+Below are common complxities and their Big O notation, ordered from fastest to slowest.
+
+- Constant      O(1)      
+- Logarithmic   O(log(n)) 
+- Linear        O(n)      
+- Log-Linear    O(n log(n)) 
+- Quadratic     O(n^2)    
+- Cubic         O(n^3)    
+- Exponential   O(2^n)    
+- Factoral      O(n!)     
+
+If you have multiple functions within a function, the complexity will be measured by the slowest function.
