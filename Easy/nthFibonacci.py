@@ -49,7 +49,7 @@ def getNthFib(n):
     else :
         return getNthFib(n-1) + getNthFib(n-2)
 
-## Better Recursive method which is faster due t othe cashine
+## Better Recursive method which is faster due to the caching
 """ 
 Time O(n) - because We are only calculateing each Fib number once and storeing it in a Hash table for later access.
 """
