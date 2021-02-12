@@ -47,6 +47,6 @@ def updateLargest(threeLargest, num):
 def shiftAndUpdate(array, number, index):
     for i in range(index + 1):
         if i == index                     # are we at the last index?
-            array[i] =  num
+            array[i] =  number
         else:
             array[i] = array[i+1]       # this step moves the number down by 1 space

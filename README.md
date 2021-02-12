@@ -8,7 +8,7 @@
 |  |  Insertion sort|  | X |  |
 |  | Branch Sums | X  |  |  |
 |  | Node Depth | X  |  |  |
-|  |  |  |  |  |
+|  |  Product Sum|  | X |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
