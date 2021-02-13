@@ -53,7 +53,6 @@ print(dict(filter(lambda x : x[1].startswith('A') , names.items())))
 ### --  Filter a dictionary with comprehension - The most pythonic way
 '''
 print({expression for (k,v) in names.items() if condition}) 
-
 '''
 
 print({k:v for (k,v) in names.items() if v.startswith('A')})
