@@ -10,7 +10,7 @@
 |  | Node Depth | X  |  |  |
 |  |  Product Sum|  | X |  |
 |  | Palindrome check | X |  |  |
-|  |  |  |  |  |
+|  | Caesar Cipher Encryption |  | X |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
