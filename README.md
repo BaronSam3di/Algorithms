@@ -9,7 +9,7 @@
 |  | Branch Sums | X  |  |  |
 |  | Node Depth | X  |  |  |
 |  |  Product Sum|  | X |  |
-|  |  |  |  |  |
+|  | Palindrome check | X |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
@@ -25,4 +25,5 @@
 
 Tip 
 - Start timing myself half way through my prep calender
-- aim to spend max 40 mins on a problem
+- Aim to spend max 40 mins on a problem
+- Always acknowledge in an interview that recursion will use more memory ( What about tail recursion? )
