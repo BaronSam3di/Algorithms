@@ -11,7 +11,7 @@
 |  |  Product Sum|  | X |  |
 |  | Palindrome check | X |  |  |
 |  | Caesar Cipher Encryption |  | X |  |
-|  |  |  |  |  |
+|  | Minimum Waiting Time |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
