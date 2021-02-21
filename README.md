@@ -32,3 +32,22 @@ Tip
 
 Things to revise
 - n log(n)
+
+
+
+### Demonstrate good coding skills with 
+- Descriptive variable nameing - Communicate what its use is. See uncle bob 
+- Abstracting out code sections and makeing use of helper methods. Multi step algorithms is where this can come in handy. Eg ; a function that removes duplicates for your main goal. 
+- Documentation : when the code is none obvious. 
+- Descriptive code. 
+- Idiomatic codeing style : Each language has a way to be written. Basically Know the language. 
+- Testing : Knowing solid tests shows you know . Edge case tests etc. 
+
+### Problem Solving
+- Ask clarifying questions, 
+- Take time to discover the problem; 
+  - Consider alternatives; pros and cons etc.
+  - Is there a repeated step I could optimize on?
+- Discuss the trade offs. eg recursive solution VS cacheing based solution. Demonstrate critical thinking of your ideas
+- Implement/tackle the problem in an organised manner.
+- Test Proactively: Explain how you would test it. WHat edge cases, good suite of tests, 
