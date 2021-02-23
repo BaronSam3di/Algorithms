@@ -20,9 +20,9 @@ To extend on this sorting the array would
 
 We would crate a left pointer under the left most point in the sorted array, and a right pointer at the right most.
 We can then sum up the values of what these two pointers. If we discover that the total is less than our target 
-value and that all the number are in sorted order, moving hte right pointer would make the sum would be even smaller, which is not what we want. 
+value and that all the number are in sorted order, moving the right pointer would make the sum would be even smaller, which is not what we want. 
 Therefore we should move the left pointer to the right to make a greater sum. 
-We cna then update our sum. 
+We can then update our sum. 
 
 This created two rules: 
 - If the sum is too small move the left pointer to the right. 
