@@ -13,7 +13,6 @@ You can assume that there will only be one pair of numbers with the smallest dif
 
 ------ Hints ------
 
-
 ------ Complexity ------ 
 Time : O(n log(n)) + m log(m))
 
@@ -30,14 +29,14 @@ The rule we follow is incrementing the side which has the smallest number. This 
 
 """
 def smallestDifference(arrayOne, arrayTwo):
-    arrayOne.sort()                         # assumeing this is ok to sort the arrays in place
+    arrayOne.sort()                                             # assumeing , in an interview this is ok to sort the arrays in place.
     arrayTwo.sort()
     idxOne = 0
     idxTwo = 0
-    smallest = float("inf") # set to infinity because after the first iteration this will be updated.
-    current = float("inf")
-    smallestPair = []
-    while idxOne < len(arrayOne) and idxTwo < len(arrayTwo):
+    smallest = float("inf")                                     # set to infinity because after the first iteration this will be updated.
+    current = float("inf")                  
+    smallestPair = []                                           # The record of the smallest seen pair
+    while idxOne < len(arrayOne) and idxTwo < len(arrayTwo):    # until we have run though all the index's
         firstNum = arrayOne[idxOne]
         secondNum = arrayTwo[idxTwo]
         if firstNum < secondNum:
@@ -48,7 +47,7 @@ def smallestDifference(arrayOne, arrayTwo):
             idxTwo += 1
         else:
             return [firstNum, secondNum]
-        if smallest > current:
+        if smallest > current:                                  # upon initialisation, this will be true as inf is > than current.
             smallest = current
             smallestPair = [firstNum,secondNum]
     return smallestPair

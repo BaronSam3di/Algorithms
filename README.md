@@ -32,7 +32,7 @@ Tip
 
 Things to revise
 - n log(n)
-
+= maybe look at pascals Triangle in python - https://www.geeksforgeeks.org/pascal-triangle/
 
 
 ### Demonstrate good coding skills with 
