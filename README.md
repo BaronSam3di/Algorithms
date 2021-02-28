@@ -14,7 +14,7 @@
 |  | Minimum Waiting Time |  |  |  |
 |  | Non-Constructable Change |  | X |  |
 |  | Move Element To End | X |  |  |
-|  |  |  |  |  |
+|  | Array Of Products |  | X |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
