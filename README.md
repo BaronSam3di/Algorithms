@@ -1,20 +1,38 @@
 # Algorithms
 
-|  | Name | Must know | Needs deeper Understanding |  |
+| Diff | Name | Must know | Needs deeper Understanding | Really hard |
 |-|-|-|-|-|
-| EASY | Depth First search | X |  |  |
-|  | Fibonacci | X |  |  |
-|  | Three Largest Numbers |  | X |  |
-|  |  Insertion sort|  | X |  |
-|  | Branch Sums | X  |  |  |
-|  | Node Depth | X  |  |  |
-|  |  Product Sum|  | X |  |
-|  | Palindrome check | X |  |  |
-|  | Caesar Cipher Encryption |  | X |  |
-|  | Minimum Waiting Time |  |  |  |
-|  | Non-Constructable Change |  | X |  |
-|  | Move Element To End | X |  |  |
-|  | Array Of Products |  | X |  |
+| E | Depth First search | X |  |  |
+| E  | Fibonacci | X |  |  |
+| E  | Three Largest Numbers |  | X |  |
+| E  |  Insertion sort|  | X |  |
+| E  | Branch Sums | X  |  |  |
+| E  | Node Depth | X  |  |  |
+| E  |  Product Sum|  | X |  |
+| E  | Palindrome check | X |  |  |
+| E  | Caesar Cipher Encryption |  | X |  |
+| E  | Minimum Waiting Time |  |  |  |
+| E  | Non-Constructable Change |  | X |  |
+| E  | Move Element To End | X |  |  |
+| ? | Array Of Products |  | X |  |
+| M | SpiralTraverse | X | X | X |
+| M | Longest Peak |  | X |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
