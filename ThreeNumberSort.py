@@ -88,7 +88,6 @@ def threeNumberSort(array, order):
 
     firstIdx , secondIdx , thirdIdx = 0 , 0 , len(array) -1
 
-
     while secondIdx <= thirdIdx:
         value = array[secondIdx]
 
