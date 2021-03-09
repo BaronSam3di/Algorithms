@@ -26,8 +26,15 @@ in the second array - it might only contain one or two.
 You make three buckets for each value in the unique array and then count the amounts of each value in the main array. You then the amounts of these values into the main array ( or reorder it).
 This requires at east two passes of counting over.
 
+# First and last elements approach
 
-
+## 3rd Optimal Approach -  Time: O(n) , Space O(1) - where n is the length of the array
+This approach uses three pointers. One for the front, a second one (that runs through checking the middle), 
+and one for the back. we start with the front and second pointers at position 0. we then move the second pointer along. 
+While the Second pointer is less than the end pointer we keep going. 
+Every time the second pointer comes accross either a value for the front or a value for the back, 
+it will swap the values with the front and increment the front pointer; 
+or swap values with the back and decrement the back pointer. 
 
 """
 
@@ -66,13 +73,15 @@ def threeNumberSort(array, order):
     firstValue = order[0]
     thirdValue = order[2]
 
-    firstIdx = 0
+    firstIdx = 0                            
+    # find the values that should be at the front and swap them there.
     for idx in range(len(array)):
         if array[idx] == firstValue:
             array[firstIdx], array[idx] = array[idx], array[firstIdx]
             firstIdx += 1
 
     thirdIdx = len(array) -1
+    # find the values that should be at the end and swap them there.
     for idx in range(len(array) -1, -1, -1):
         if array[idx] == thirdValue:
             array[thirdIdx], array[idx] = array[idx], array[thirdIdx]
@@ -82,6 +91,7 @@ def threeNumberSort(array, order):
 
 
 ## 3rd Approach Time: O(n) , Space O(1) - where n is the length of the array
+
 def threeNumberSort(array, order):
     firstValue = order[0]
     secondValue = order[1]
