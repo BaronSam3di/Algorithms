@@ -19,7 +19,7 @@
 | M | Longest Peak |  | X |  |
 | M | Three Number Sort |  | X |  |
 | M | Longest Palindrome Substring |  | X |  |
-|  |  |  |  |  |
+| M | Group Anagrams |  | X |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
