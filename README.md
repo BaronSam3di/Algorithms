@@ -20,7 +20,7 @@
 | M | Three Number Sort |  | X |  |
 | M | Longest Palindrome Substring |  | X |  |
 | M | Group Anagrams |  | X |  |
-|  |  |  |  |  |
+| M | validIPAddresses  |  | X |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
