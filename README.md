@@ -21,9 +21,9 @@
 | M | Longest Palindrome Substring |  | X |  |
 | M | Group Anagrams |  | X |  |
 | M | validIPAddresses  |  | X |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| M | ReverseWordsString | X | ? |  |
+| M | Permutations | X |  |  |
+| M | Powerset | X |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
