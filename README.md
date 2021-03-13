@@ -3,17 +3,17 @@
 | Diff | Name | Must know | Needs deeper Understanding | Really hard |
 |-|-|-|-|-|
 | E | Depth First search | X |  |  |
-| E  | Fibonacci | X |  |  |
-| E  | Three Largest Numbers |  | X |  |
-| E  |  Insertion sort|  | X |  |
-| E  | Branch Sums | X  |  |  |
-| E  | Node Depth | X  |  |  |
-| E  |  Product Sum|  | X |  |
-| E  | Palindrome check | X |  |  |
-| E  | Caesar Cipher Encryption |  | X |  |
-| E  | Minimum Waiting Time |  |  |  |
-| E  | Non-Constructable Change |  | X |  |
-| E  | Move Element To End | X |  |  |
+| E | Fibonacci | X |  |  |
+| E | Three Largest Numbers |  | X |  |
+| E | Insertion sort|  | X |  |
+| E | Branch Sums | X  |  |  |
+| E | Node Depth | X  |  |  |
+| E | Product Sum|  | X |  |
+| E | Palindrome check | X |  |  |
+| E | Caesar Cipher Encryption |  | X |  |
+| E | Minimum Waiting Time |  |  |  |
+| E | Non-Constructable Change |  | X |  |
+| E | Move Element To End | X |  |  |
 | ? | Array Of Products |  | X |  |
 | M | SpiralTraverse | X | X | X |
 | M | Longest Peak |  | X |  |
@@ -24,7 +24,7 @@
 | M | ReverseWordsString | X | ? |  |
 | M | Permutations | X |  |  |
 | M | Powerset | X |  |  |
-|  |  |  |  |  |
+| M | Phone Number Mnemonics |  |  | X |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
