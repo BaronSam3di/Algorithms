@@ -25,7 +25,7 @@
 | M | Permutations | X |  |  |
 | M | Powerset | X |  |  |
 | M | Phone Number Mnemonics |  |  | X |
-|  |  |  |  |  |
+| M | StairCase Traversal | X | X |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
