@@ -26,7 +26,7 @@
 | M | Powerset | X |  |  |
 | M | Phone Number Mnemonics |  |  | X |
 | M | StairCase Traversal | X | X |  |
-|  |  |  |  |  |
+| M | Binary Search Tree | X | X |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
