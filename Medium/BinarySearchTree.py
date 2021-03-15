@@ -65,15 +65,15 @@ class BST:
     # Worst; O(n) time | O(1) space
     def insert(self, value):
         # Write your code here.
-        currentNode = self
+        currentNode = self                              # allows us to keep track
         while True:                                     # until we use a break statement    
-            if value < currentNode.value:
-                if currentNode.left is None:
-                    currentNode.left = BST(value)
+            if value < currentNode.value:               # we then want to explore the left 
+                if currentNode.left is None:            # are we at the end of a branch?
+                    currentNode.left = BST(value)       # then make the following node a new BST with out value    
                     break
                 else:
                     currentNode = currentNode.left
-            else:
+            else:                                       # we then want to explore the right
                 if currentNode.right is None:
                     currentNode.right = BST(value)
                     break
@@ -91,7 +91,7 @@ class BST:
             elif value > currentNode.value:
                 currentNode = currentNode.right
             else:
-                return True
+                return True                            # if we get to here then the value is in the tree 
         return False
         
     # Average: O(log(n)) time | O(1) space
@@ -99,6 +99,7 @@ class BST:
     def remove(self, value, parentNode = None):
         currentNode = self
         while currentNode is not None:
+            # bookeeping section
             if value < currentNode.value:
                 parentNode = currentNode                    # to keep track of the current node
                 currentNode = currentNode.left
@@ -106,24 +107,27 @@ class BST:
                 parentNode = currentNode                   
                 currentNode = currentNode.right
             else:
+                # Here we go! we have found our node and we have two child nodes present
                 if currentNode.left is not None and currentNode.right is not None:
-                    currentNode.value = currentNode.right.getMinValue()
+                    currentNode.value = currentNode.right.getMinValue()         # we swap the current node with the Minimum value
                     currentNode.right.remove(currentNode.value, currentNode)
-                elif parentNode is None:
+                elif parentNode is None:                                        # we are at the root node , because there is no parent
+                    # we don't have two child nodes present, so two subcases: root node or has parent node 
                     if currentNode.left is not None:
                         currentNode.value = currentNode.left.value
                         currentNode.right = currentNode.left.right
-                        currentNode.left = currentNode.left.left
+                        currentNode.left = currentNode.left.left        # overwrite this last so we don't overwrite it before we stp needing it
                     elif currentNode.right is not None:
                         currentNode.value = currentNode.right.value
-                        currentNode.right = currentNode.right.left
-                        currentNode.left = currentNode.right.right
+                        currentNode.left = currentNode.right.left
+                        currentNode.right = currentNode.right.right     # for the same reason as above
                     else:
+                        currentNode.value = None                        # Banal edge case to delete the root node 
 						pass		# this is a single node tree; do nothing
                 elif parentNode.left == currentNode:
-					parentNode.left = currentNode.left if currentNode.left is not None else currentNode.right
-			    elif parentNode.right == currentNode:
-					parentNode.right = currentNode.left if currentNode.left is not None else currentNode.right
+                    parentNode.left = currentNode.left if currentNode.left is not None else currentNode.right
+                elif parentNode.right == currentNode:
+                    parentNode.right = currentNode.left if currentNode.left is not None else currentNode.right
                 break
         return self
 
@@ -131,4 +135,4 @@ class BST:
         currentNode = self
         while currentNode.left is not None:
             currentNode = currentNode.left
-        return currentNode
+        return currentNode.value
