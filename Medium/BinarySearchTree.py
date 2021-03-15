@@ -109,7 +109,87 @@ class BST:
             else:
                 # Here we go! we have found our node and we have two child nodes present
                 if currentNode.left is not None and currentNode.right is not None:
+       class BST:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+    # Average: O(log(n)) time | O(1) space
+    # Worst; O(n) time | O(1) space
+    def insert(self, value):
+        # Write your code here.
+        currentNode = self                              # allows us to keep track
+        while True:                                     # until we use a break statement    
+            if value < currentNode.value:               # we then want to explore the left 
+                if currentNode.left is None:            # are we at the end of a branch?
+                    currentNode.left = BST(value)       # then make the following node a new BST with out value    
+                    break
+                else:
+                    currentNode = currentNode.left
+            else:                                       # we then want to explore the right
+                if currentNode.right is None:
+                    currentNode.right = BST(value)
+                    break
+                else:
+                    currentNode = currentNode.right
+        return self                                     # this allows us to chain the calls to insert
+
+    # Average: O(log(n)) time | O(1) space
+    # Worst; O(n) time | O(1) space
+    def contains(self, value):
+        currentNode = self
+        while currentNode is not None: 
+            if value < currentNode.value:
+                currentNode = currentNode.left
+            elif value > currentNode.value:
+                currentNode = currentNode.right
+            else:
+                return True                            # if we get to here then the value is in the tree 
+        return False
+        
+    # Average: O(log(n)) time | O(1) space
+    # Worst; O(n) time | O(1) space
+    def remove(self, value, parentNode = None):
+        currentNode = self
+        while currentNode is not None:
+            # bookeeping section
+            if value < currentNode.value:
+                parentNode = currentNode                    # to keep track of the current node
+                currentNode = currentNode.left
+            elif value > currentNode.value:
+                parentNode = currentNode                   
+                currentNode = currentNode.right
+            else:
+                # Here we go! we have found our node and we have two child nodes present
+                if currentNode.left is not None and currentNode.right is not None:
                     currentNode.value = currentNode.right.getMinValue()         # we swap the current node with the Minimum value
+                    currentNode.right.remove(currentNode.value, currentNode)
+                elif parentNode is None:                                        # we are at the root node , because there is no parent
+                    # we don't have two child nodes present, so two subcases: root node or has parent node 
+                    if currentNode.left is not None:
+                        currentNode.value = currentNode.left.value
+                        currentNode.right = currentNode.left.right
+                        currentNode.left = currentNode.left.left        # overwrite this last so we don't overwrite it before we stp needing it
+                    elif currentNode.right is not None:
+                        currentNode.value = currentNode.right.value
+                        currentNode.left = currentNode.right.left
+                        currentNode.right = currentNode.right.right     # for the same reason as above
+                    else:
+                        currentNode.value = None                        # Banal edge case to delete the root node 
+						pass		# this is a single node tree; do nothing
+                elif parentNode.left == currentNode:
+                    parentNode.left = currentNode.left if currentNode.left is not None else currentNode.right
+                elif parentNode.right == currentNode:
+                    parentNode.right = currentNode.left if currentNode.left is not None else currentNode.right
+                break
+        return self
+
+    def getMinValue(self):
+        currentNode = self
+        while currentNode.left is not None:
+            currentNode = currentNode.left
+        return currentNode.value             currentNode.value = currentNode.right.getMinValue()         # we swap the current node with the Minimum value
                     currentNode.right.remove(currentNode.value, currentNode)
                 elif parentNode is None:                                        # we are at the root node , because there is no parent
                     # we don't have two child nodes present, so two subcases: root node or has parent node 

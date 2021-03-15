@@ -27,8 +27,8 @@
 | M | Phone Number Mnemonics |  |  | X |
 | M | StairCase Traversal | X | X |  |
 | M | Binary Search Tree | X | X |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| M | Kadane's Algorithm | X |  |  |
+| H | Knuth-Morris-Pratt (KNP) | X | X |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
