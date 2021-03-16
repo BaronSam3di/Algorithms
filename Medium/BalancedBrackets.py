@@ -38,7 +38,7 @@ def balancedBrackets(string):
     stack = []
     for char in string:
         if char in openingBrackets:                 
-            stack.append(char)                      # we juts need to store the complimentary opening brackets
+            stack.append(char)                      # we just need to store the complimentary opening brackets
         elif char in closingBrackets:                
             if len(stack) == 0:                     # there are no opening brackets so False
                 return False

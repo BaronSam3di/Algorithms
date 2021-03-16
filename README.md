@@ -30,7 +30,7 @@
 | M | Kadane's Algorithm | X |  |  |
 | H | Knuth-Morris-Pratt (KNP) | X | X |  |
 | M | Balanced Brackets | X |  |  |
-|  |  |  |  |  |
+| H | Dijkstra's Algorithm | X |  | X |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
