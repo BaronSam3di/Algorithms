@@ -31,8 +31,8 @@
 | H | Knuth-Morris-Pratt (KNP) | X | X |  |
 | M | Balanced Brackets | X |  |  |
 | H | Dijkstra's Algorithm | X |  | X |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| H | Min Heap Construction | X | X |  |
+| M | Task Assignment |  | X |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
