@@ -44,24 +44,49 @@ Note: the fuel will always match the distances.
 """
 
 ####################################################
-## O(n^2) time | O(1) space - where n is the number of cities
+## Optimal Approach: O(n) time | O(1) space - where n is the number of cities
+####################################################
+
+def validStartingCity(distances, fuel, mpg):
+    numberOfCities = len(distances)
+    milesRemaining = 0
+
+    indexOfStartingCityCandidate = 0
+    milesRemainingAtStartingCityCandidate = 0
+
+    for cityIdx in range(1, numberOfCities):
+        distanceFromPreviousCity = distances[cityIdx - 1]
+        fuelFromPreviousCity = fuel[cityIdx - 1]
+        milesRemaining += fuelFromPreviousCity * mpg - distanceFromPreviousCity
+
+        if milesRemaining < milesRemainingAtStartingCityCandidate:
+            milesRemainingAtStartingCityCandidate = milesRemaining
+            indexOfStartingCityCandidate = cityIdx
+
+    return indexOfStartingCityCandidate
+
+
+####################################################
+## Brute force Approach: O(n^2) time | O(1) space - where n is the number of cities
 ####################################################
 
 def validStartingCity(distances, fuel, mpg):
     numberOfCities = len(distances)
 
+    # pick a starting city
     for startCityIdx in range(numberOfCities):
         milesRemaining = 0
 
+        # iterate through remianing cities    
         for currentCityIdx in range(startCityIdx, startCityIdx + numberOfCities):
             if milesRemaining < 0:
-                continue
+                continue                                                            # if we have run out of fuel, skip
 
-            currentCityIdx = currentCityIdx % numberOfCities
+            currentCityIdx = currentCityIdx % numberOfCities    
 
-            fuelFromCurrentCity = fuel[currentCityIdx]
+            fuelFromCurrentCity = fuel[currentCityIdx]                              # 
             distanceToNextCity = distances[currentCityIdx]
-            milesRemaining += fuelFromCurrentCity * mpg - distanceToNextCity
+            milesRemaining += fuelFromCurrentCity * mpg - distanceToNextCity        #
 
         if milesRemaining >= 0:
             return startCityIdx
