@@ -33,6 +33,7 @@
 | H | Dijkstra's Algorithm | X |  | X |
 | H | Min Heap Construction | X | X |  |
 | M | Task Assignment |  | X |  |
+| M | Valid Starting City |  | X |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
@@ -40,6 +41,12 @@
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+
 
 Tip 
 - Start timing myself half way through my prep calender
