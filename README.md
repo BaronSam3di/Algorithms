@@ -34,9 +34,9 @@
 | H | Min Heap Construction | X | X |  |
 | M | Task Assignment |  | X |  |
 | M | Valid Starting City |  | X |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| M | Invert Binary Tree | X |  |  |
+| M | Linked List Construction | X | X |  |
+| M | Search Sorted Matrix  | X |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
