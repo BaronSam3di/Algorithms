@@ -1,5 +1,6 @@
 """
 ----- BInarySearch : Level Easy -----
+# Has a recursive solution 
 ------ BRIEF ------
 Write a function that takes in a sorted array of integers as well as a target integer. 
 The function should use the Binary Search algorithm to determine if the target is contained in 

@@ -30,10 +30,6 @@ The tallest student of either row (and so their entire row) will need to be in t
  Time: O(n log(n)) - need to sort both arrays 
  Space: O(1) - everything is done in place. Assumeing You can modify the input arrays
 
------- Recursive Formula ------
-
------- Iterative Approach ------
-
 """
 
 def classPhotos(redShirtHeights, blueShirtHeights):

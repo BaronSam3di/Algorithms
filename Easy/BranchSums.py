@@ -4,6 +4,7 @@
 Time: O(n) because we have to do constant time operations as we traverses all nodes.
 Space: = O(log n) Multiple recursive calls on the call stack at once.
 
+# Has a recursive solution 
 ------ BRIEF ------
 Write a function that takes in a Binary tree and a list of its branch sums ordered from 
 the leftmost branch sum to the rightmost branch sum.

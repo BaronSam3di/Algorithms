@@ -15,10 +15,6 @@ If they are not in the correct order, we will swap the number in place ( we are 
 Space = O(1) because it is done in place, not storage needed
 Time = O(n^2) could be at worst 
 
------- Recursive Formula ------
-
------- Iterative Approach ------
-
 """
 ## Time o(n^2) | Space O(1)  
 def bubbleSort(array):
