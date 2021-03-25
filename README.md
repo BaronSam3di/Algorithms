@@ -39,7 +39,7 @@
 | M | Search Sorted Matrix  | X |  |  |
 | M | Find Loop in a linked List | X | X |  |
 | H | Reverse Linked List | X |  |  |
-|  |  |  |  |  |
+| H | Merged Linked List | X |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |

@@ -12,7 +12,7 @@
 Time: O() 
 Space: O()
 
------- Recursive Formula ------
+------ Recursive Approach ------
 
 ------ Iterative Approach ------
 
