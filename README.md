@@ -37,8 +37,8 @@
 | M | Invert Binary Tree | X |  |  |
 | M | Linked List Construction | X | X |  |
 | M | Search Sorted Matrix  | X |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| M | Find Loop in a linked List | X | X |  |
+| H | Reverse Linked List | X |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
