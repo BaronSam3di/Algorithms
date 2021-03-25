@@ -1,52 +1,51 @@
 # Algorithms
 
-| Diff | Name | Must know | Needs deeper Understanding | Really hard |
-|-|-|-|-|-|
-| E | Depth First search | X |  |  |
-| E | Fibonacci | X |  |  |
-| E | Three Largest Numbers |  | X |  |
-| E | Insertion sort|  | X |  |
-| E | Branch Sums | X  |  |  |
-| E | Node Depth | X  |  |  |
-| E | Product Sum|  | X |  |
-| E | Palindrome check | X |  |  |
-| E | Caesar Cipher Encryption |  | X |  |
-| E | Minimum Waiting Time |  |  |  |
-| E | Non-Constructable Change |  | X |  |
-| E | Move Element To End | X |  |  |
-| ? | Array Of Products |  | X |  |
-| M | SpiralTraverse | X | X | X |
-| M | Longest Peak |  | X |  |
-| M | Three Number Sort |  | X |  |
-| M | Longest Palindrome Substring |  | X |  |
-| M | Group Anagrams |  | X |  |
-| M | validIPAddresses  |  | X |  |
-| M | ReverseWordsString | X | ? |  |
-| M | Permutations | X |  |  |
-| M | Powerset | X |  |  |
-| M | Phone Number Mnemonics |  |  | X |
-| M | StairCase Traversal | X | X |  |
-| M | Binary Search Tree | X | X |  |
-| M | Kadane's Algorithm | X |  |  |
-| H | Knuth-Morris-Pratt (KNP) | X | X |  |
-| M | Balanced Brackets | X |  |  |
-| H | Dijkstra's Algorithm | X |  | X |
-| H | Min Heap Construction | X | X |  |
-| M | Task Assignment |  | X |  |
-| M | Valid Starting City |  | X |  |
-| M | Invert Binary Tree | X |  |  |
-| M | Linked List Construction | X | X |  |
-| M | Search Sorted Matrix  | X |  |  |
-| M | Find Loop in a linked List | X | X |  |
-| H | Reverse Linked List | X |  |  |
-| H | Merged Linked List | X |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-
+| Diff | Name | Must know | Needs deeper Understanding | Really hard | Recursive Solution |
+|-|-|-|-|-|-|
+| E | Depth First search | X |  |  | X |
+| E | Fibonacci | X |  |  | X |
+| E | Three Largest Numbers |  | X |  |  |
+| E | Insertion sort|  | X |  |  |
+| E | Branch Sums | X  |  |  | X |
+| E | Node Depth | X  |  |  | X |
+| E | Product Sum|  | X |  | X |
+| E | Palindrome check | X |  |  | X |
+| E | Caesar Cipher Encryption |  | X |  |  |
+| E | Minimum Waiting Time |  |  |  |  |
+| E | Non-Constructable Change |  | X |  |  |
+| E | Move Element To End | X |  |  |  |
+| ? | Array Of Products |  | X |  |  |
+| M | SpiralTraverse | X | X | X | X |
+| M | Longest Peak |  | X |  |  |
+| M | Three Number Sort |  | X |  |  |
+| M | Longest Palindrome Substring |  | X |  |  |
+| M | Group Anagrams |  | X |  |  |
+| M | validIPAddresses  |  | X |  |  |
+| M | ReverseWordsString | X | ? |  |  |
+| M | Permutations | X |  |  |  |
+| M | Powerset | X |  |  | X |
+| M | Phone Number Mnemonics |  |  | X | X |
+| M | StairCase Traversal | X | X |  | X |
+| M | Binary Search Tree | X | X |  | X |
+| M | Kadane's Algorithm | X |  |  |  |
+| H | Knuth-Morris-Pratt (KNP) | X | X |  |  |
+| M | Balanced Brackets | X |  |  |  |
+| H | Dijkstra's Algorithm | X |  | X |  |
+| H | Min Heap Construction | X | X |  |  |
+| M | Task Assignment |  | X |  |  |
+| M | Valid Starting City |  | X |  |  |
+| M | Invert Binary Tree | X |  |  | X |
+| M | Linked List Construction | X | X |  |  |
+| M | Search Sorted Matrix  | X |  |  |  |
+| M | Find Loop in a linked List | X | X |  |  |
+| H | Reverse Linked List | X |  |  |  |
+| H | Merged Linked List | X |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 
 Tip 
 - Start timing myself half way through my prep calender

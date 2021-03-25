@@ -41,11 +41,6 @@ We then reset the iteration, incrementing the CN and all relative pointers.
 ------ Complexity ------ 
 Time = O(n^2) - Iterating through like a double for loop.
 Space = O(n) - We might end up storing every number. Worst case all numbers are part of a triplet. 
-
------- Recursive Formula ------
-
------- Iterative Approach ------
-
 """
 
 def threeNumberSum(array, targetSum):

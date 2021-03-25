@@ -1,5 +1,8 @@
 """
 ------Find Closet Value in BST : Easy----- 
+
+# Has a recursive solution 
+
 ------ BRIEF ------
 
 Write a function that takes ina Binary Search Tree (BST) 

@@ -50,13 +50,6 @@ To do this we can simply pay the shortest duration task with the longest duratio
 Repeat this process until you've paid all tasks. 
 This will lead to an optimal pairing, because your pair of tasks with the longest duration will have the shortest duration that it could possibly have.
 
------- Complexity ------ 
-
-
------- Recursive Formula ------
-
------- Iterative Approach ------
-
 """
 
 ####################################################

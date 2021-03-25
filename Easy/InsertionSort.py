@@ -9,9 +9,6 @@ Take a list of unsorted numbers. To sort in assending order, starting from the l
 ------ Complexity ------ 
 Time O(n^2)
 Space O(1)
------- Recursive Formula ------
-
------- Iterative Approach ------
 
 """
 # import random

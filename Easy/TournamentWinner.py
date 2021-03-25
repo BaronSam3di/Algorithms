@@ -24,11 +24,6 @@ It's also guaranteed that the tournament will always have at least two teams.
 
 ------ Complexity ------ 
 
-
------- Recursive Formula ------
-
------- Iterative Approach ------
-
 """
 HOME_TEAM_WON = 1
 

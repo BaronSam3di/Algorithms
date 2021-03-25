@@ -1,5 +1,5 @@
 """
------ First Duplicate Value : MEdium -----
+----- First Duplicate Value : Medium -----
 ------ BRIEF ------
 
 Given an array of integers between 1 and n, inclusive, where n is the length of the array,
@@ -16,14 +16,6 @@ Ideas
 - Could use a set?
 - Could use a dictionary? 
 ------ Hints ------
-
-
------- Complexity ------ 
-
-
------- Recursive Formula ------
-
------- Iterative Approach ------
 
 """
 ## My First Approach : Time O(n), Space O(1).

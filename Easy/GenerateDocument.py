@@ -39,10 +39,6 @@ Solution 3  - Time:O(M+n), Space: O(c), Where m in doc length, n is chars string
 Loop through count every char. Use a chache to store the counts of the values. In python a dict.
 Then loop through the document and subtract each value from the cache. IF we don't have enough , we cannot make the string and will return False. 
 
------- Recursive Formula ------
-
------- Iterative Approach ------
-
 """
 ## Solution 1 - Least optimal Time:O(m(n*m)), Space: O(1)
 def generateDocument(characters, document):

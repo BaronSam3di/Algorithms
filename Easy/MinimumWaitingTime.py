@@ -36,9 +36,6 @@ uses a greedy algorithm because it picks the shortest number .
 ------ Complexity ------ 
 Time: O(n log(n)) where is the len of input array.  
 Space: O(1) - no extra space needed
------- Recursive Formula ------
-
------- Iterative Approach ------
 
 """
 

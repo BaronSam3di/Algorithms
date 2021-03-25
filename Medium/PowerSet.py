@@ -1,5 +1,6 @@
 """
 ----- NAME: Powerset -----
+# Has a recursive solution 
 ----- Category: Recursion -----
 ----- Level : Medium -----
 ------ BRIEF ------

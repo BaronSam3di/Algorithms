@@ -42,11 +42,6 @@ before we set 2 and 4 to null as the prev and next of 3.
 
 ------ Complexity ------ 
 
-
------- Recursive Formula ------
-
------- Iterative Approach ------
-
 """
 
 ####################################################

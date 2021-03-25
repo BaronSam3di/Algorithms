@@ -1,5 +1,6 @@
 """
 ----- Name: Invert Binary Tree -----
+# Has a recursive solution 
 ----- Category: Binary Trees -----
 ----- Level : Medium -----
 

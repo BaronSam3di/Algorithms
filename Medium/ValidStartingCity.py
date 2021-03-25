@@ -34,12 +34,7 @@ Note: the fuel will always match the distances.
 ------ Hints ------
  
 
------- Complexity ------ 
 
-
------- Recursive Formula ------
-
------- Iterative Approach ------
 
 """
 

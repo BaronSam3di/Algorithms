@@ -1,5 +1,6 @@
 """
 ----- Palindrome check : Easy -----
+# Has a recursive solution 
 ------ BRIEF ------
 Write function that takes in a non-empty string and that returns a boolean representing weather the string is a pallindrome.
 A palindrome is defined as string that's written the same forward and backward. not tha single-character strings are palindromes.

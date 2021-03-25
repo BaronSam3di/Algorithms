@@ -41,10 +41,6 @@ Make sure to keep track of the longest apeak you find as you iterate though the 
 ------ Complexity ------ 
 Time O(n)
 
------- Recursive Formula ------
-
------- Iterative Approach ------
-
 """
 ## O(n) time | O(1) Space
 def longestPeak(array):

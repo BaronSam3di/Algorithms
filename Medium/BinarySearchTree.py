@@ -1,5 +1,6 @@
 """
 ----- NAME: Binary Search Tree Construction -----
+# Has a recursive solution 
 ----- Category: Binary Search Trees -----
 ----- Level : Medium -----
 ------ BRIEF ------
@@ -33,14 +34,6 @@ For removal, consider the various cases that you might encounter:
 - the node you need to remove might have two children nodes, one , or none;
 - it might also be the root node; 
 make sure to account for all of the cases.
-
-
------- Complexity ------ 
-
-
------- Recursive Formula ------
-
------- Iterative Approach ------
 
 """
 

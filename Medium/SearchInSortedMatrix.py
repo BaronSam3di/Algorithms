@@ -25,13 +25,6 @@ and using whatever you gathered from him #1 to figure out what number to compare
  the top right number isn't equal to the target number.
  Continue until you find the target number or until you get past the extremities of the matrix. 
 
------- Complexity ------ 
-
-
------- Recursive Formula ------
-
------- Iterative Approach ------
-
 """
 
 ####################################################

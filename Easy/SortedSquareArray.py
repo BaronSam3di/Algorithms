@@ -10,9 +10,7 @@ the same length with the squares of the original integers also sorted in asscend
 ------ Complexity ------ 
 
 
------- Recursive Formula ------
 
------- Iterative Approach ------
 
 """
 def sortedSquaredArray(array):

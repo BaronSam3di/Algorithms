@@ -1,5 +1,6 @@
 """
 ----- NAME: StairCase Traversal -----
+# Has a recursive solution 
 ----- Category: Recursion -----
 ----- Level : Medium -----
 ------ BRIEF ------

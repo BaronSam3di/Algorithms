@@ -23,9 +23,7 @@ then shifting a sorted number along according to its size.
 ------ Complexity ------ 
 Time = O(N) we have to go through the entire array
 Space = O(1) Storage will be slightly bigger than the size of the array so constant.
------- Recursive Formula ------
 
------- Iterative Approach ------
 """
 
 def findThreeLargest(array):

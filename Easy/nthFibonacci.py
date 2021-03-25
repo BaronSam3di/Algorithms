@@ -1,5 +1,6 @@
 """
 ----- Nth Fibonacci : Easy -----
+# Has a recursive solution 
 ------ BRIEF ------
 The Fibonacci sequence is defined as follows:
 The first number of the sequence is 0, the second number is 1, and the nth number is the sum of (n-1)th and (n-2)th numbers.
@@ -22,13 +23,6 @@ improve the performance of your algorithm?
 
 Realise tha to calculate any single Fibonacci number you only need to have the two previous Fibonacci numbers. KNowing this, can you implement and iterative
 algorithm to solve this question, storing only the last two Fibonacci numbers at any given time?
-
------- Complexity ------ 
-
-
------- Recursive Formula ------
-
------- Iterative Approach ------
 
 """
 

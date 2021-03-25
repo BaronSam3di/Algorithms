@@ -1,6 +1,6 @@
 """
 ----- Depth First Search : Easy -----
-
+# Has a recursive solution 
 ------ BRIEF ------
 
 Depth First search is the sibling of Breadth first search.

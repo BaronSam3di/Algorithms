@@ -33,15 +33,7 @@ The core methods of the heap will be
 - Insert - add a node(value) in the heap
 - remove - del a node(value) in the heap . The easiest value you can remove is the root.  
 - peek - return the value of the root
------- Hints ------
 
-
------- Complexity ------ 
-
-
------- Recursive Formula ------
-
------- Iterative Approach ------
 
 """
 

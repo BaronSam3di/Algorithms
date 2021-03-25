@@ -20,11 +20,6 @@ You want ot use a stack, LIFO style,
 
 ------ Complexity ------ 
 
-
------- Recursive Formula ------
-
------- Iterative Approach ------
-
 """
 
 ####################################################

@@ -1,5 +1,8 @@
 """
 ----- Product Sum : Easy -----
+
+# Has a recursive solution 
+
 ------ BRIEF ------
 
 -- A classic recursion question--

@@ -1,5 +1,8 @@
 """
 ----- NAME: Phone Number Mnemonics -----
+
+# Has a recursive solution 
+
 ----- Category: Recursion -----
 ----- Level : Medium -----
 ------ BRIEF ------

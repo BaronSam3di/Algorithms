@@ -1,5 +1,6 @@
 """
 ----- SpiralTraverse : Medium -----
+# Has a recursive solution 
 ------ BRIEF ------
 
 Write a function that take in an n x m 2D array ( that can be a square-shaped when n ==m)

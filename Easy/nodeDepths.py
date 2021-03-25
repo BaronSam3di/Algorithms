@@ -1,5 +1,6 @@
 """
 ----- Node Depths : Easy -----
+# Has a recursive solution 
 ------ BRIEF ------
 
 The distance between a node in Binary Tree and the tree's root is called the nodes's depth.

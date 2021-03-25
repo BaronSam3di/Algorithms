@@ -17,13 +17,6 @@ Thus, Long runs (runs of 10 or more characters) should be encoded in a split fas
 ------ Hints ------
 
 
------- Complexity ------ 
-
-
------- Recursive Formula ------
-
------- Iterative Approach ------
-
 """
 ## O(n) Time \ O(n) space
 def runLineEncoding(string):
