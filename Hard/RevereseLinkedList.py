@@ -27,7 +27,9 @@ Time: O()
 Space: O()
 
 ------ Approach ------
-
+Ultimately, reverse the direction of the pointers.
+Not many Algo's use threee pointers like thes. 
+the ordering id important to not loose track of variables. 
 
 """
 
@@ -43,10 +45,13 @@ class LinkedList:
 
 
 def reverseLinkedList(head):
-    p1, p2 = None, head                 # p1 is None because p2 needs to be the "current node in questions" at any one time. 
-    while p2 is not None:   
-        p3 = p2.next                    # declare p3 here because ...
-        p2.next = p1                    # this reverses the pointer to point back to the node behind it
-        p1 = p2                         # this needs to happen once we have recorded p1 above
-        p2 = p3                         # this needs to happen once we have recorded p2 above
-    return p1                           # p2 will be passed the head and p1 will be the new and final head pf the LinkedList
+    
+    # pointerOne is None because it needs to be one back from pointerTwo which needs to be the "current node in question" at any one time. 
+    pointerOne, pointerTwo = None, head           
+
+    while pointerTwo is not None:   
+        pointerthree = pointerTwo.next            # declare pointerthree here because we will need this at the end
+        pointerTwo.next = pointerOne              # this reverses the pointer to point back to the node behind it
+        pointerOne = pointerTwo                   # this needs to happen once we have recorded pointerOne above
+        pointerTwo = pointerthree                 # this needs to happen once we have recorded pointerTwo above
+    return pointerOne                             # pointerTwo will be passed the head and pointerOne will be the new and final head pf the LinkedList

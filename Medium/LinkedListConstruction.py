@@ -152,4 +152,4 @@ class DoublyLinkedList:
         if node.next is not None:
             node.next.prev = node.prev
         node.prev = None
-		node.next = None        
+        node.next = None

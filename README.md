@@ -40,8 +40,8 @@
 | M | Find Loop in a linked List | X | X |  |  |
 | H | Reverse Linked List | X |  |  |  |
 | H | Merged Linked List | X |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| H | Shift Linked List |  |  |  |  |
+| VH | LRU Cache | X | X |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
@@ -57,7 +57,7 @@ Tip
 Things to revise
 - n log(n)
 = maybe look at pascals Triangle in python - https://www.geeksforgeeks.org/pascal-triangle/
-
+- Reverse Linked List is a common question
 
 ### Demonstrate good coding skills with 
 - Descriptive variable nameing - Communicate what its use is. See uncle bob 
