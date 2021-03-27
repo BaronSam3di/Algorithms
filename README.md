@@ -42,17 +42,24 @@
 | H | Merged Linked List | X |  |  |  |
 | H | Shift Linked List |  |  |  |  |
 | VH | LRU Cache | X | X |  |  |
+| VH | Rearrange Linked List | X | X |  |  |
+| VH | Linked List Palindrome | X | X |  | X |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
-
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 Tip 
 - Start timing myself half way through my prep calender
 - Aim to spend max 40 mins on a problem
 - Always acknowledge in an interview that recursion will use more memory ( What about tail recursion? )
 - Ask an interview if its ok to sort an array inplace
-
+- Nice to see abstraction outWrite helper functiosn. 
 
 Things to revise
 - n log(n)
