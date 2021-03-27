@@ -54,14 +54,15 @@ def linkedListPalindrome(head):
 
 def isPalindrome(leftNode, rightNode):
     # base case
-    if rightNode is None:
-        return LinkedListInfo(True,leftNode)
+    if rightNode is None:                           # True == at the end of the linked list
+        return LinkedListInfo(True, leftNode)   
 
 
     recursiveCallResults = isPalindrome(leftNode,rightNode.next)
     leftNodeToCompare = recursiveCallResults.leftNodeToCompare
     outerNodesAreEqual = recursiveCallResults.outerNodesAreEqual
-
+    
+    # Compare previous checks and current check to get boolean 
     recursiveIsEqual = outerNodesAreEqual and leftNodeToCompare.value == rightNode.value
     nextMatchingLeftNode = leftNodeToCompare.next
 
@@ -89,26 +90,23 @@ def linkedListPalindrome(head):
     slowNode = head
     fastNode = head
     while fastNode is not None and fastNode.next is not None:
-        # when fast node is at the end of the list , slow node will be at the centre
+        # when fast node is at the end of the list , slow node will be at the centre/half way
         slowNode = slowNode.next
         fastNode = fastNode.next.next   # twice as fast
 
-    reversedSecondhalfNode = reverseLinkedList(slowNode)
+    reversedSecondHalfNode = reverseLinkedList(slowNode)
     firstHalfNode = head
 
-    while reversedSecondhalfNode is not None:
-        if reversedSecondhalfNode.value != firstHalfNode.value:
+    while reversedSecondHalfNode is not None:
+        if reversedSecondHalfNode.value != firstHalfNode.value:         # the nodes were not equal
             return False
-        reversedSecondhalfNode = reversedSecondhalfNode.next
+        reversedSecondHalfNode = reversedSecondHalfNode.next
         firstHalfNode = firstHalfNode.next 
 
     return True
 
-
-
-
 def reverseLinkedList(head):
-    # see other exercise file on this 
+    # see ReversedLinkedList.py
     previousNode, currentNode = None, head
     while currentNode is not None:
         nextNode = currentNode.next

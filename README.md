@@ -60,6 +60,9 @@ Tip
 - Always acknowledge in an interview that recursion will use more memory ( What about tail recursion? )
 - Ask an interview if its ok to sort an array inplace
 - Nice to see abstraction outWrite helper functiosn. 
+- know Linked List Palindrome 
+
+
 
 Things to revise
 - n log(n)
