@@ -44,8 +44,8 @@
 | VH | LRU Cache | X | X |  |  |
 | VH | Rearrange Linked List | X | X |  |  |
 | VH | Linked List Palindrome | X | X |  | X |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| VH | Zipped Linked Lists | X |  |  |  |
+| H | Pascals Triangle | X |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
