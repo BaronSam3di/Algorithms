@@ -46,7 +46,7 @@
 | VH | Linked List Palindrome | X | X |  | X |
 | VH | Zipped Linked Lists | X |  |  |  |
 | H | Pascals Triangle | X |  |  |  |
-|  |  |  |  |  |  |
+| H | Lowest common manager |  | X |  | X |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
@@ -61,7 +61,7 @@ Tip
 - Ask an interview if its ok to sort an array inplace
 - Nice to see abstraction outWrite helper functiosn. 
 - know Linked List Palindrome 
-
+- good example of recursion is `Lowest common manager`
 
 
 Things to revise
