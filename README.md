@@ -47,13 +47,14 @@
 | VH | Zipped Linked Lists | X |  |  |  |
 | H | Pascals Triangle | X |  |  |  |
 | H | Lowest common manager |  | X |  | X |
+| VH | interweaving Strings  |  |  |  | X |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
-|  |  |  |  |  |  |
+
 Tip 
 - Start timing myself half way through my prep calender
 - Aim to spend max 40 mins on a problem
@@ -62,7 +63,7 @@ Tip
 - Nice to see abstraction outWrite helper functiosn. 
 - know Linked List Palindrome 
 - good example of recursion is `Lowest common manager`
-
+- revisit Interweaving strings: Lots of good points
 
 Things to revise
 - n log(n)
