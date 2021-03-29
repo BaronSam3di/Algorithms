@@ -48,7 +48,7 @@
 | H | Pascals Triangle | X |  |  |  |
 | H | Lowest common manager |  | X |  | X |
 | VH | interweaving Strings  |  |  |  | X |
-|  |  |  |  |  |  |
+| VH | Solve Sudoku |  |  | X | X |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
@@ -69,7 +69,7 @@ Things to revise
 - n log(n)
 = maybe look at pascals Triangle in python - https://www.geeksforgeeks.org/pascal-triangle/
 - Reverse Linked List is a common question
-
+- Need to write up the content of Solve Sudoku 
 ### Demonstrate good coding skills with 
 - Descriptive variable nameing - Communicate what its use is. See uncle bob 
 - Abstracting out code sections and makeing use of helper methods. Multi step algorithms is where this can come in handy. Eg ; a function that removes duplicates for your main goal. 
