@@ -49,7 +49,7 @@
 | H | Lowest common manager |  | X |  | X |
 | VH | interweaving Strings  |  |  |  | X |
 | VH | Solve Sudoku |  |  | X | X |
-|  |  |  |  |  |  |
+| H | Generate Div Tags |  | X |  | X |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
@@ -77,7 +77,7 @@ Things to revise
 - Descriptive code. 
 - Idiomatic codeing style : Each language has a way to be written. Basically Know the language. 
 - Testing : Knowing solid tests shows you know . Edge case tests etc. 
-
+- Look up a Catalan number? 
 ### Problem Solving
 - Ask clarifying questions, 
 - Take time to discover the problem; 
