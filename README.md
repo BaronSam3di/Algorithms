@@ -50,7 +50,7 @@
 | VH | interweaving Strings  |  |  |  | X |
 | VH | Solve Sudoku |  |  | X | X |
 | H | Generate Div Tags |  | X |  | X |
-|  |  |  |  |  |  |
+| VH | Number of Binary Tree Topologies |  | X |  | X |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
@@ -70,6 +70,9 @@ Things to revise
 = maybe look at pascals Triangle in python - https://www.geeksforgeeks.org/pascal-triangle/
 - Reverse Linked List is a common question
 - Need to write up the content of Solve Sudoku 
+- Need to write up the content of "Number of Binary Tree Topologies"
+
+
 ### Demonstrate good coding skills with 
 - Descriptive variable nameing - Communicate what its use is. See uncle bob 
 - Abstracting out code sections and makeing use of helper methods. Multi step algorithms is where this can come in handy. Eg ; a function that removes duplicates for your main goal. 

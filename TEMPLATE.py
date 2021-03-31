@@ -1,6 +1,6 @@
 """
 ----- NAME:  -----
------ Category:  -----
+----- Category: Dynamic programming -----
 ----- Level :  -----
 ------ BRIEF ------
 
