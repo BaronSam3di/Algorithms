@@ -51,9 +51,16 @@
 | VH | Solve Sudoku |  |  | X | X |
 | H | Generate Div Tags |  | X |  | X |
 | VH | Number of Binary Tree Topologies |  | X |  | X |
+| M | Max Subset No Adjacent | X |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
 
 Tip 
 - Start timing myself half way through my prep calender

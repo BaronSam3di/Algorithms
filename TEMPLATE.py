@@ -1,5 +1,5 @@
 """
------ NAME:  -----
+----- NAME: -----
 ----- Category: Dynamic programming -----
 ----- Level :  -----
 ------ BRIEF ------
@@ -12,9 +12,7 @@
 Time: O() 
 Space: O()
 
------- Recursive Approach ------
-
------- Iterative Approach ------
+------ Approach ------
 
 """
 
