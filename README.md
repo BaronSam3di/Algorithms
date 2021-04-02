@@ -52,7 +52,7 @@
 | H | Generate Div Tags |  | X |  | X |
 | VH | Number of Binary Tree Topologies |  | X |  | X |
 | M | Max Subset No Adjacent | X |  |  |  |
-|  |  |  |  |  |  |
+| M | Number of ways to make change | X | X |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
