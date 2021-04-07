@@ -29,7 +29,7 @@ Create a ways array , for each way to  ame change
 def numberOfWaysToMakeChange(n, denoms):
     ways = [0 for amount in range(n+1)]         # initialise to n + 1 filled with 0's
     ways[0] = 1
-    for demon in demons:
+    for denom in denoms:
         for amount in range(1, n+1):            # skip 0 because we juts set it
             if denom <= amount:                 # the coin is less than the change to be given
                 ways[amount] += ways[amount - denom] # coming up  with this is a bit tricky
