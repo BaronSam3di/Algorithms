@@ -54,7 +54,7 @@
 | M | Max Subset No Adjacent | X |  |  |  |
 | M | Number of ways to make change | X | X |  |  |
 | M | Min number of Coins for Change |  |  |  |  |
-|  |  |  |  |  |  |
+| M | Levenshtein Distance |  | X | X |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
