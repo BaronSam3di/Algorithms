@@ -55,7 +55,7 @@
 | M | Number of ways to make change | X | X |  |  |
 | M | Min number of Coins for Change |  |  |  |  |
 | M | Levenshtein Distance |  | X | X |  |
-|  |  |  |  |  |  |
+| M | Number of ways to traverse a graph | X | X |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
