@@ -56,11 +56,19 @@
 | M | Min number of Coins for Change |  |  |  |  |
 | M | Levenshtein Distance |  | X | X |  |
 | M | Number of ways to traverse a graph | X | X |  |  |
+| H | Max Sum Increasing Subsequence | | X |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
-
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 
 Tip 
 - Start timing myself half way through my prep calender
