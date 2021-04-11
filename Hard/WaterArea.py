@@ -44,10 +44,9 @@ Space: O()
 For each index in the array, calculate the amount of water above that index. 
 The highest pilar is the most important.
 
-
 """
 
-
+# ------- BEST solution ----------
 ####################################################
 ## Time: O(n) - where n is the length of the input array, heights
 ## Space: O(n) - 

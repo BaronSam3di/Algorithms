@@ -59,7 +59,7 @@
 | H | Max Sum Increasing Subsequence | | X |  |  |
 | H | Longest Common Subsequence |  | XX |  |  |
 | H | Min number of Jumps | X | XX |  |  |
-| H | Water Area |  |  |  |  |
+| H | Water Area |  | X |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
