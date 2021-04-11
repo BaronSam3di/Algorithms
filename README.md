@@ -57,7 +57,7 @@
 | M | Levenshtein Distance |  | X | X |  |
 | M | Number of ways to traverse a graph | X | X |  |  |
 | H | Max Sum Increasing Subsequence | | X |  |  |
-|  |  |  |  |  |  |
+| H | Longest Common Subsequence |  | XX |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
