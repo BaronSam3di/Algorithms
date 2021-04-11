@@ -58,8 +58,8 @@
 | M | Number of ways to traverse a graph | X | X |  |  |
 | H | Max Sum Increasing Subsequence | | X |  |  |
 | H | Longest Common Subsequence |  | XX |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| H | Min number of Jumps | X | XX |  |  |
+| H | Water Area |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
@@ -75,7 +75,8 @@ Tip
 - Aim to spend max 40 mins on a problem
 - Always acknowledge in an interview that recursion will use more memory ( What about tail recursion? )
 - Ask an interview if its ok to sort an array inplace
-- Nice to see abstraction outWrite helper functiosn. 
+- Nice to see abstraction out
+- Write helper functions. 
 - know Linked List Palindrome 
 - good example of recursion is `Lowest common manager`
 - revisit Interweaving strings: Lots of good points
