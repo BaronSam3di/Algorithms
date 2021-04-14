@@ -60,7 +60,7 @@
 | H | Longest Common Subsequence |  | XX |  |  |
 | H | Min number of Jumps | X | XX |  |  |
 | H | Water Area |  | X |  |  |
-|  |  |  |  |  |  |
+| H | Knapsack Problem | X | X |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
