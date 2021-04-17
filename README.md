@@ -62,8 +62,8 @@
 | H | Water Area |  | X |  |  |
 | H | Knapsack Problem | X | X |  |  |
 | H | Disk Stacking  | | X |  |  |
-| H | Numbers in Pi | XX |  |  |  |
-|  |  |  |  |  |  |
+| H | Numbers in Pi | XX |  |  | X |
+| VH | Max Profit with K transactions | x |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |

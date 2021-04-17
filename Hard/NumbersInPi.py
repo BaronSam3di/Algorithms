@@ -39,6 +39,7 @@ Space: O(n+m) - where n is the length of the pi number and m is the length of th
 """
 
 ####################################################
+## Method 1
 ## Time: O(n) - where n is 
 ## Space: O(n) - 
 ####################################################
@@ -68,3 +69,38 @@ def getMinSpaces(pi, numbersTable, cache, idx): # Starting index
 
 	cache[idx] = minSpaces
 	return cache[idx]
+
+####################################################
+## Method 2
+## Time: O(n) - where n is 
+## Space: O(n) - 
+####################################################
+
+def numbersInPi(pi, numbers):
+    numbersTable = {number: True for number in numbers}                     # Apart from this line , this function is slightly different than above.
+    cache = {}
+    for i in reversed(range(len(pi))):
+        getMinSpaces(pi, numbersTable, cache, i)
+    return -1 if cache[0] == float("inf") else cache[0]   
+
+# helper function
+def getMinSpaces(pi, numbersTable, cache, idx): # Starting index
+	# base case
+	if idx ==len(pi):
+		return -1
+
+	if idx in cache:                                                        # this is where the time saving is as we just reference the cache
+		return cache[idx]                               
+
+	minSpaces = float("inf")
+	for i in range(idx, len(pi)):
+		prefix = pi[idx : i + 1]                
+
+        # recursive step
+		if prefix in numbersTable:
+			minSpacesInSuffix = getMinSpaces(pi, numbersTable, cache, i + 1)    
+			minSpaces = min(minSpaces, minSpacesInSuffix + 1)               # this line needs more clarity fr me 
+
+	cache[idx] = minSpaces
+	return cache[idx]
+
