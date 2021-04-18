@@ -65,7 +65,7 @@
 | H | Numbers in Pi | XX |  |  | X |
 | VH | Max Profit with K transactions | x |  |  |  |
 | H | Maximum Sum Submatrix |  |  |  |  |
-|  |  |  |  |  |  |
+| H | Maximize Expression |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |

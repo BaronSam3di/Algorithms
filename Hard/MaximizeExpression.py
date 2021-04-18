@@ -9,7 +9,7 @@ Write a function that takes in an array of integers
 and returns the largest possible value for the expression: 
 array[a] - array[b] + array[c] - array[d], 
 
-where a, b, c, and d are indices of the array and of the indicies;  a < b < c < d. 
+where a, b, c, and d are indices of the array and of the indices;  a < b < c < d. 
 So if a is the 2nd index, they cannot be the first index.
 
 If the input array has fewer than 4 elements, your function should return zero.
