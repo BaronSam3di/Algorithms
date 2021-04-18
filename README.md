@@ -66,7 +66,7 @@
 | VH | Max Profit with K transactions | x |  |  |  |
 | H | Maximum Sum Submatrix |  |  |  |  |
 | H | Maximize Expression |  |  |  |  |
-|  |  |  |  |  |  |
+| VH | Palindrome Min Cuts | |  | XX L52-57 |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 
