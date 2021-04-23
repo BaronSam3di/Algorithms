@@ -67,9 +67,15 @@
 | H | Maximum Sum Submatrix |  |  |  |  |
 | H | Maximize Expression |  |  |  |  |
 | VH | Palindrome Min Cuts | |  | XX L52-57 |  |
+| M | Merge Overlaping Intervals |  |  |  |  |
+| H | Four Number Sum |  | X |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
-
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 Tip 
 - Start timing myself half way through my prep calender
 - Aim to spend max 40 mins on a problem
@@ -105,3 +111,8 @@ Things to revise
 - Discuss the trade offs. eg recursive solution VS cacheing based solution. Demonstrate critical thinking of your ideas
 - Implement/tackle the problem in an organised manner.
 - Test Proactively: Explain how you would test it. WHat edge cases, good suite of tests, 
+
+
+https://www.martinkysel.com/codility-solutions/
+
+

@@ -1,6 +1,6 @@
 """
 ----- NAME: -----
------ Category: Dynamic programming -----
+----- Category: Arrays -----
 ----- Level :  -----
 ------ BRIEF ------
 
