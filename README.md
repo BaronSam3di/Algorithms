@@ -71,8 +71,8 @@
 | H | FourNumberSum |  | X |  | cool |
 | H | Largest Range |  |  |  |  |
 | H | Min Rewards |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| H | ZigZag Traverse |  |  |  |  |
+| VH | Apartment Hunting |  | XX |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
