@@ -68,14 +68,17 @@
 | H | Maximize Expression |  |  |  |  |
 | VH | Palindrome Min Cuts | |  | XX L52-57 |  |
 | M | Merge Overlaping Intervals |  |  |  |  |
-| H | Four Number Sum |  | X |  |  |
+| H | FourNumberSum |  | X |  | cool |
+| H | Largest Range |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
-|  |  |  |  |  |  |
+
+
+
 Tip 
 - Start timing myself half way through my prep calender
 - Aim to spend max 40 mins on a problem
