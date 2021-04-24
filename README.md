@@ -70,7 +70,7 @@
 | M | Merge Overlaping Intervals |  |  |  |  |
 | H | FourNumberSum |  | X |  | cool |
 | H | Largest Range |  |  |  |  |
-|  |  |  |  |  |  |
+| H | Min Rewards |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
