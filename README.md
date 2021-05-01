@@ -73,9 +73,22 @@
 | H | Min Rewards |  |  |  |  |
 | H | ZigZag Traverse |  |  |  |  |
 | VH | Apartment Hunting |  | XX |  |  |
+| E | First non-repeating character |  |  |  |  |
+| VH | Waterfall streams |  |  |  |  |
+| H | Quick Sort | XX |  |  |  |
+| H | longest Substring Without Duplication |  | XX Not done |  |  |
+| H | Heap Sort |  | XX Not done |  |  |
+| H | multiStringSearch |  | Not Done |  |  |
+| H | searchForRange |  | Not Done |  |  |
+| H | Radix Sort  |  | Not Done |  |  |
+| M |breadthFirstSearch  | Not Done |  |  |  |
+| M | YoungestCommonAncestor | Not Done |  |  |  |
+| M | hasSingleCycle |  | Not Done |  |  |
+| H | patternMatcher |  | Not Done |  |  |
+| M | Validate BST |  | Not Done |  |  |
 |  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+
+
 
 
 
