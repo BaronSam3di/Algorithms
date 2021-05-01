@@ -3,13 +3,13 @@
 | Diff | Name | Must know | Needs deeper Understanding | Really hard | Recursive Solution |
 |-|-|-|-|-|-|
 | E | Depth First search | X |  |  | X |
-| E | Fibonacci | X |  |  | X |
+| E | Fibonacci | done |  |  | X |
 | E | Three Largest Numbers |  | X |  |  |
 | E | Insertion sort|  | X |  |  |
 | E | Branch Sums | X  |  |  | X |
 | E | Node Depth | X  |  |  | X |
 | E | Product Sum|  | X |  | X |
-| E | Palindrome check | X |  |  | X |
+| E | Palindrome check | done |  |  | X |
 | E | Caesar Cipher Encryption |  | X |  |  |
 | E | Minimum Waiting Time |  |  |  |  |
 | E | Non-Constructable Change |  | X |  |  |
@@ -89,7 +89,9 @@
 |  |  |  |  |  |  |
 
 
+# Notes
 
+- "memoization" was coined by Donald Michie in 1968,
 
 
 Tip 
@@ -119,6 +121,7 @@ Things to revise
 - Idiomatic codeing style : Each language has a way to be written. Basically Know the language. 
 - Testing : Knowing solid tests shows you know . Edge case tests etc. 
 - Look up a Catalan number? 
+- 
 ### Problem Solving
 - Ask clarifying questions, 
 - Take time to discover the problem; 

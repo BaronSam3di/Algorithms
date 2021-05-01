@@ -26,12 +26,13 @@ algorithm to solve this question, storing only the last two Fibonacci numbers at
 
 """
 
-
+################################################################
 ## Naive recursive method 
+################################################################
 '''
 Time: O(2^n) - Not the best time complexity because we are doing a lot of unnecessary calculations. 
 If we call fib(5) , this will call (fib(4) and fib(3). fib(4) will also call fib(3). A lot of duplication.
-Space O(n) - because of the all the recursive calls
+Space O(n) - because of the all the recursive calls.
 '''
 def getNthFib(n):
     # 2 base Cases
@@ -42,10 +43,11 @@ def getNthFib(n):
     # Recursive case
     else :
         return getNthFib(n-1) + getNthFib(n-2)
-
+################################################################
 ## Better Recursive method which is faster due to the caching
+################################################################
 """ 
-Time O(n) - because We are only calculateing each Fib number once and storeing it in a Hash table for later access.
+Time O(n) - because We are only calculateing each Fib number once and storeing it in a Hash table for later access. Memoization
 """
 
 def getNthFib(n, hashTable = {1: 0, 2: 1}):
@@ -56,18 +58,39 @@ def getNthFib(n, hashTable = {1: 0, 2: 1}):
         return hashTable[n]
 
 
-
-## Iterative approach (the best approach)
+################################################################
+## Optimal approach
+## Iterative approach 
 ## O(n) time | O(1) Space
+################################################################
 """
 here we use an array of the last 2 fibonacci number and a counter to keep the fibonacci number. 
 """
-def getNthFib(n):
+def getNthFibOpt(n):
     lastTwo = [0,1]                             # initial values
     counter = 3                                 # base fibonacci
+
     while counter <= n:
         nextFib = lastTwo[0] + lastTwo[1]
         lastTwo[0] = lastTwo[1]
         lastTwo[1] = nextFib
         counter += 1
+
     return lastTwo[1] if n > 1 else lastTwo[0]  # python ternary operator format
+
+
+################################################################
+## Single test 
+################################################################
+
+import unittest
+
+class MyTest(unittest.TestCase):a
+    def test1(self):
+        self.assertEqual(getNthFibOpt(9), 21)
+    
+    def test2(self):
+        self.assertEqual(getNthFibOpt(2), 1)
+
+if __name__ == '__main__':
+    unittest.main()

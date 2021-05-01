@@ -27,9 +27,9 @@ def isPalindrome(string):
 
 
 # ################################################################
-# ## Reverese string approach - O(n^2) time | O(n) Space 
+# ## Reversed string approach - O(n^2) time | O(n) Space 
 # ################################################################
-# ''' we build a reverese string and then return its comparison with the original. are they the same?  '''
+# ''' we build a Reversed string and then return its comparison with the original. are they the same?  '''
 # def isPalindrome(string):
 #     revereseString = ""
 #     for i in reversed(range(len(string))):
@@ -37,7 +37,7 @@ def isPalindrome(string):
 #     return string == revereseString 
 
 # ################################################################
-## Reverese list approach - O(n) time | O(n) Space
+## Reversed list approach - O(n) time | O(n) Space
 ################################################################
 '''  '''
 def isPalindrome(string):
@@ -69,6 +69,7 @@ def isPalindrome(string, i = 0):
     return isPalindrome(string, i + 1)      # this tail recursion is compiler dependent
 
 # ################################################################
+## Optimum 
 ## Iterative with Pointers :  - O(n) time | O(1) Space
 ################################################################
 
@@ -76,7 +77,7 @@ def isPalindrome(string):
     leftIDx = 0 
     rightIdx = len(string) - 1
     while leftIDx < rightIdx:
-        if string[leftIDx] != string[rightIdx]:     # As long as this doesn't happen it is still could be a palindrome
+        if string[leftIDx] != string[rightIdx]:     # As long as this doesn't happen it still could be a palindrome
             return False
         leftIDx += 1
         rightIdx -= 1

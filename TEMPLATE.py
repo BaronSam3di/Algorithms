@@ -20,3 +20,13 @@ Space: O()
 ## Time: O(n) - where n is 
 ## Space: O(n) - 
 ####################################################
+
+
+import unittest
+
+class MyTest(unittest.TestCase):
+    def test(self):
+        self.assertEqual(getNthFibOpt(9), 21)
+
+if __name__ == '__main__':
+    unittest.main()
